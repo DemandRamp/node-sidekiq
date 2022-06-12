@@ -48,7 +48,7 @@ Reporting Bugs or Feature Requests
 Please report any bugs or feature requests on the github issues page for this
 project here:
 
-[https://github.com/loopj/node-sidekiq/issues](https://github.com/imcrazytwkr/node-sidekiq)
+[https://github.com/imcrazytwkr/node-sidekiq](https://github.com/imcrazytwkr/node-sidekiq)
 
 
 Contributing
