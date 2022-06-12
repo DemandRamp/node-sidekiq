@@ -1,28 +1,41 @@
 {
-    "name": "sidekiq",
-    "version": "1.1.1",
-    "description": "Enqueue sidekiq jobs from your node apps.",
-    "main": "lib/index.js",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/loopj/node-sidekiq"
+  "name": "@imcrazytwkr/node-sidekiq",
+  "version": "1.0.0",
+  "description": "Enqueue and dequeue sidekiq jobs from your Node apps",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imcrazytwkr/node-sidekiq.git"
+  },
+  "keywords": [
+    "sidekiq",
+    "queue",
+    "redis"
+  ],
+  "author": {
+    "name": "Denis Chernov",
+    "email": "cat.aka.xakep@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "James Smith",
+      "email": "james@loopj.com",
+      "url": "https://github.com/loopj"
     },
-    "keywords": [
-        "sidekiq",
-        "queue",
-        "redis"
-    ],
-    "author": {
-        "name": "James Smith",
-        "email": "james@loopj.com"
+    {
+      "name": "Nick Skriabin",
+      "url": "https://github.com/nicholasrq"
     },
-    "license": "MIT",
-    "devDependencies": {
-        "grunt": "~0.4.0",
-        "grunt-contrib-coffee": "~0.12.0",
-        "grunt-bumpx": "~0.1.0"
-    },
-    "dependencies": {
-        "redis": "~0.8"
+    {
+      "name": "Walerian Sobczak",
+      "url": "https://github.com/walerian777"
     }
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+      "@redis/client": "1.x.x"
+  }
 }
