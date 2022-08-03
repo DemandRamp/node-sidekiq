@@ -18,10 +18,10 @@ Usage
 
 ```javascript
 // Require the module
-const Sidekiq = require('@imcrazytwkr/node-sidekiq');
+const Sidekiq = require('@DemandRamp/node-sidekiq');
 
 // Or import it
-import Sidekiq from '@imcrazytwkr/node-sidekiq';
+import Sidekiq from '@DemandRamp/node-sidekiq';
 
 // Construct a sidekiq object with your redis connection and optional namespace
 const sidekiq = new Sidekiq(redisCon, process.env.NODE_ENV);
@@ -48,13 +48,13 @@ Reporting Bugs or Feature Requests
 Please report any bugs or feature requests on the github issues page for this
 project here:
 
-[https://github.com/imcrazytwkr/node-sidekiq](https://github.com/imcrazytwkr/node-sidekiq)
+[https://github.com/DemandRamp/node-sidekiq](https://github.com/DemandRamp/node-sidekiq)
 
 
 Contributing
 ------------
 
--   [Fork](https://help.github.com/articles/fork-a-repo) the [repository on github](https://github.com/imcrazytwkr/node-sidekiq)
+-   [Fork](https://help.github.com/articles/fork-a-repo) the [repository on github](https://github.com/DemandRamp/node-sidekiq)
 -   Edit files directly inside `lib` because no translation requires!
 -   Commit and push until you are happy with your contribution
 -   [Make a pull request](https://help.github.com/articles/using-pull-requests)
@@ -65,4 +65,4 @@ License
 -------
 
 This is free software released under the MIT License.
-See [LICENSE](https://github.com/imcrazytwkr/node-sidekiq/blob/master/LICENSE) for details.
+See [LICENSE](https://github.com/DemandRamp/node-sidekiq/blob/master/LICENSE) for details.

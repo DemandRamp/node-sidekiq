@@ -1,5 +1,5 @@
 {
-  "name": "@imcrazytwkr/node-sidekiq",
+  "name": "@DemandRamp/node-sidekiq",
   "version": "1.0.0",
   "description": "Enqueue and dequeue sidekiq jobs from your Node apps",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imcrazytwkr/node-sidekiq.git"
+    "url": "git+https://github.com/DemandRamp/node-sidekiq.git"
   },
   "keywords": [
     "sidekiq",
